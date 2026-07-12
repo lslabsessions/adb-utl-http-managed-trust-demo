@@ -1,0 +1,26 @@
+# Oracle and database artifacts
+*.log
+*.lst
+*.out
+*.dmp
+*.trc
+
+# Secrets and security material
+*.p12
+*.pfx
+*.jks
+*.pem
+*.key
+*.crt
+*.cer
+cwallet.sso
+ewallet.p12
+wallet/
+.env
+.env.*
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
