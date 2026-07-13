@@ -44,12 +44,12 @@ The service is only for testing purposes. Availability and behavior can change. 
 
 Run as the application schema:
 
-- 001_environment.sql
-- 010_check_network_access.sql
+- sql/001_environment.sql
+- sql/010_check_network_access.sql
 
 ### 2. Grant network access
 
-Edit 005_grant_network_access.sql and replace APP_USER with the target schema. Run the script as ADMIN or another account with permission to manage network ACLs.
+Edit sql/005_grant_network_access.sql and replace APP_USER with the target schema. Run the script as ADMIN or another account with permission to manage network ACLs.
 
 The script grants:
 
@@ -57,23 +57,23 @@ The script grants:
 
 ### 3. Verify the ACL acess to the application schema after the grants
 
-- 010_check_network_access.sql
+- sql/010_check_network_access.sql
 
 ### 4. Install the pl/sql package
 
 Run as the application schema:
 
-- 015_POSTMAN_HTTP_PKG.sql
+- sql/015_POSTMAN_HTTP_PKG.sql
 
 ### 5. Execute the GET example
 
-- 020_run_get.sql
+- sql/020_run_get.sql
 
 Expected result: HTTP status 200 and a JSON response containing the arg0=Hello & arg1=ADB query parameters.
 
 ### 6. Execute the POST example
 
-- 025_run_post.sql
+- sql/025_run_post.sql
 
 Expected result: HTTP status 200 and a JSON response containing the JSON body sent by the package.
 
