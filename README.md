@@ -49,17 +49,17 @@ Run as the application schema:
 
 ### 2. Grant network access
 
-Edit 005_grant_network_access.sql and replace `APP_USER with the target schema. Run the script as ADMIN or another account with permission to manage network ACLs.
+Edit 005_grant_network_access.sql and replace APP_USER with the target schema. Run the script as ADMIN or another account with permission to manage network ACLs.
 
 The script grants:
 
-- http to `postman-echo.com` on port 443;
+- http to postman-echo.com on port 443;
 
 ### 3. Verify the ACL acess to the application schema after the grants
 
 - 010_check_network_access.sql
 
-### 4. Install the package
+### 4. Install the pl/sql package
 
 Run as the application schema:
 
