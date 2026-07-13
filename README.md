@@ -112,7 +112,7 @@ A user-managed wallet may still be necessary when the remote service uses:
 
 - [Oracle Database PL/SQL Packages and Types Reference: UTL_HTTP](https://docs.oracle.com/en/database/oracle/oracle-database/26/arpls/UTL_HTTP.html)
 - [Oracle Database PL/SQL Packages and Types Reference: DBMS_NETWORK_ACL_ADMIN](https://docs.oracle.com/en/database/oracle/oracle-database/19/arpls/DBMS_NETWORK_ACL_ADMIN.html)
-- [Oracle Database PL/SQL Packages and Types Reference: Make External Calls Using a Customer-Managed Wallet (https://docs.oracle.com/en-us/iaas/autonomous-database-serverless/doc/external-calls-with-customer-managed-wallet.html)
+- [Oracle Database PL/SQL Packages and Types Reference: Make External Calls Using a Customer-Managed Wallet] (https://docs.oracle.com/en-us/iaas/autonomous-database-serverless/doc/external-calls-with-customer-managed-wallet.html)
 - [Postman documentation: Echo API](https://learning.postman.com/docs/reference/developer-resources/echo-api/)
 
 ## License
