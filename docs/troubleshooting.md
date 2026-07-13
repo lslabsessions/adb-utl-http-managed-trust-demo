@@ -8,7 +8,7 @@ Actions:
 
 1. Confirm the package is executed by the application schema.
 2. Run 010_check_network_access.sql as that schema.
-3. Ask an ACL administrator to run sql/005_grant_network_access.sql with the correct target schema.
+3. Ask an ACL administrator to run 005_grant_network_access.sql with the correct target schema.
 
 ## ORA-29024: Certificate validation failure
 
