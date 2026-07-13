@@ -1,0 +1,14 @@
+{
+    "args": {
+        "arg0": "Hello",
+        "arg1": "ADB"
+    },
+    "headers": {
+        "accept": "application/json",
+        "accept-encoding": "gzip, br",
+        "host": "postman-echo.com",
+        "user-agent": "oracle-adb-utl-http-demo/1.0",
+        "x-forwarded-proto": "https"
+    },
+    "url": "https://postman-echo.com/get?arg0=Hello&arg1=ADB"
+}

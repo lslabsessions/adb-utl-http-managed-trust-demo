@@ -1,0 +1,27 @@
+{
+    "args": {
+    },
+    "data": {
+        "message": "Hello from Oracle Autonomous Database",
+        "source": "oracle-adb"
+    },
+    "files": {
+    },
+    "form": {
+    },
+    "headers": {
+        "accept": "application/json",
+        "accept-encoding": "gzip, br",
+        "content-length": "73",
+        "content-type": "application/json; charset=UTF-8",
+        "host": "postman-echo.com",
+        "user-agent": "oracle-adb-utl-http-demo/1.0",
+        "x-demo-source": "Oracle Autonomous Database",
+        "x-forwarded-proto": "https"
+    },
+    "json": {
+        "message": "Hello from Oracle Autonomous Database",
+        "source": "oracle-adb"
+    },
+    "url": "https://postman-echo.com/post"
+}
